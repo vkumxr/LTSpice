@@ -1,6 +1,6 @@
 # LTSpice Simulations
 
-This repository contains a collection of **LTSpice circuit simulations** for various communication and signal-processing concepts.  
+This repository contains a collection of **LTSpice circuit simulations** for various electronics and communication concepts.  
 Each project includes LTSpice schematic files (`.asc`), simulation setups, and analysis results.
 
 ---
@@ -27,6 +27,11 @@ Each project includes LTSpice schematic files (`.asc`), simulation setups, and a
 - Capable of **low-pass**, **high-pass**, and **band-pass** responses by selecting appropriate output nodes.  
 - Includes transient and AC analysis to verify frequency response.  
 - Adjustable resistor and capacitor values for tuning cut-off frequencies and quality factor.
+
+### 5. Automatic Gain Control (AGC)
+- Simulates an **AGC circuit** that automatically adjusts the signal amplitude to maintain a stable output.  
+- Useful for **audio processing** or **communication systems** to prevent signal distortion.  
+- Includes LTSpice schematic and transient analysis plots showing dynamic gain adjustment.
 
 ---
 
